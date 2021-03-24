@@ -34,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1"
   }
 }

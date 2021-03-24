@@ -1,0 +1,37 @@
+.nav-menu {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+  .nav-menu_item {
+    margin-bottom: 8px;
+  }
+
+  .nav-menu_item a {
+    line-height: 30px;
+    font-size: 22px;
+    color: #1e1f24;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
+  a.active {
+    color: #630000;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-menu {
+
+    .nav-menu_item {
+      margin-left: 74px;
+    }
+
+    .nav-menu_item:first-of-type {
+      margin-left: 0;
+    }
+  }
+}
